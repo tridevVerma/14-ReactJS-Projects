@@ -1,0 +1,88 @@
+.birthday-bg {
+  width: 100%;
+  height: 100vh;
+  background-color: #f875aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.birthday-box {
+  background-color: white;
+  width: 35vw;
+  height: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.birthday-item {
+  display: flex;
+  align-items: center;
+}
+
+.birthdayImg {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.birthday-item-data-name {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.birthday-item-data-age {
+  font-size: 1.5rem;
+  color: grey;
+}
+
+.clear-birthday,
+.reset-birthday {
+  background-color: #f875aa;
+  color: white;
+  border: none;
+  padding: 5px;
+  width: 100%;
+}
+
+.clear-birthday:hover,
+.reset-birthday:hover {
+  background-color: #fc3f8a;
+}
+
+@media (max-width: 1256px) {
+  .birthday-box {
+    width: 50vw;
+  }
+  .birthday-heading {
+    font-size: 3.8rem;
+  }
+}
+@media (max-width: 766px) {
+  .birthday-box {
+    width: 80vw;
+  }
+  .birthday-heading {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .birthday-item-data-name {
+    font-size: 1.2rem;
+  }
+  .birthday-item-data-age {
+    font-size: 1.2rem;
+  }
+  .birthday-box {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .birthday-heading {
+    font-size: 2.4rem;
+  }
+}

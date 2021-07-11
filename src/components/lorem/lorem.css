@@ -1,0 +1,50 @@
+.lorem-bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  background-color: rgb(241, 251, 255);
+}
+
+.lorem-headingText {
+  width: fit-content;
+  padding: 1rem 2rem;
+  margin: 5rem auto;
+  color: #08475a;
+  font-weight: bold;
+}
+
+.loremContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lorem-btn {
+  border-radius: 0px;
+  height: 35px;
+  border: none;
+}
+
+.loremLabel {
+  color: #08475a;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#loremPara {
+  width: 10vw;
+  height: 35px;
+}
+
+.paragraphs {
+  width: 60vw;
+  color: #08475a;
+}
+
+.lorem-eachPara {
+  margin-bottom: 2rem;
+}

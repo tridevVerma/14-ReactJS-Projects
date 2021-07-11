@@ -1,0 +1,99 @@
+.slider-bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  background-color: rgb(241, 251, 255);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.slider-headingText {
+  width: fit-content;
+  padding: 1rem 2rem;
+  margin: 5rem auto;
+  color: #08475a;
+}
+
+.slider-heading-slash {
+  color: rgb(204, 88, 6);
+  margin-right: 5px;
+}
+
+.slider-box {
+  width: 55vw;
+  height: fit-content;
+}
+
+.slider-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem auto;
+}
+
+.slider-imageInfo-div {
+  width: inherit;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.slider-person-name {
+  color: rgb(204, 88, 6);
+  font-weight: bold;
+
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.slider-person-quote {
+  margin-top: 4rem;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.slider-left-btn,
+.slider-right-btn {
+  display: flex;
+  transform: scale(2);
+  border: none;
+}
+
+.bi-arrow-left-square-fill,
+.bi-arrow-right-square-fill {
+  border-radius: 2px;
+  color: #387081;
+  transition: 0.4s;
+}
+
+.bi-arrow-left-square-fill:hover,
+.bi-arrow-right-square-fill:hover {
+  color: rgb(204, 88, 6);
+}
+
+.slider-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .slider-box {
+    width: 90vw;
+  }
+}

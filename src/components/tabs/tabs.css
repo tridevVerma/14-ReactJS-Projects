@@ -1,0 +1,104 @@
+.tabs-bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  background-color: rgb(241, 251, 255);
+}
+
+.tabs-headingText {
+  width: fit-content;
+  border-bottom: 5px solid rgb(19, 214, 214);
+  padding: 1rem 2rem;
+  margin: 5rem auto;
+  color: #075870;
+  font-weight: bold;
+}
+
+.tabs-list {
+  list-style-type: none;
+  padding: 0px !important;
+}
+
+.tab-btn {
+  background-color: transparent;
+  border: none;
+  margin: 0.5rem 0rem;
+  color: #075870;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: 0.2s ease;
+  padding: 5px;
+}
+
+.tab-btn:hover {
+  color: rgb(2, 201, 201);
+}
+
+.tabs-offer-title {
+  color: #075870;
+}
+
+.tabs-offer-company {
+  background-color: #d2ebf3;
+  color: #006283;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+}
+
+.tabs-offer-dates {
+  color: #79878b;
+}
+
+.tabs-duty {
+  display: grid;
+  grid-template-columns: 5% 95%;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.bi-chevron-double-right {
+  color: rgb(2, 201, 201);
+  transform: scale(1.2);
+}
+
+.tabs-duty-para {
+  color: #20657c;
+}
+
+.tabs-active {
+  color: rgb(2, 201, 201);
+  border-left: 5px solid rgb(2, 201, 201);
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .tabs-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+  }
+  .tabs-active {
+    border-left: none;
+    border-bottom: 5px solid rgb(2, 201, 201);
+  }
+
+  .tabs-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tabs-duty-para {
+    margin-left: 1rem;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .tab-btn {
+    font-size: 1.2rem;
+  }
+}

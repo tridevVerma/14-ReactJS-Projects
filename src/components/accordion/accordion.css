@@ -1,0 +1,20 @@
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+  color: black !important;
+}
+
+.accordion-button {
+  outline: none !important;
+  font-weight: bold !important;
+  border: none !important;
+  letter-spacing: 0.1rem;
+}
+
+.accordion-header {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border: none !important;
+}
+
+.accordion-item {
+  border: none;
+}
